@@ -44,7 +44,7 @@ public class DataTypes {
         intValue = (int) doubleValue;
         System.out.println(intValue);
 
-
+	
         // 14, 23,42,356, 98374598347, 123.456, 3456.234233
         byte x = 14;
         int y = 2342356;
@@ -80,4 +80,10 @@ public class DataTypes {
         int sum = x + y;
         System.out.println(sum);
     }
+
+    public static void printSomething(String name) {
+        String greeting = "hello good morning, " + name;
+        System.out.println(greeting);
+    }
+
 }
